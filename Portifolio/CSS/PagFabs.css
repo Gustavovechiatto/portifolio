@@ -1,8 +1,12 @@
-body {
-	font-family: Helvetica;
-    background-color: #050505;
+.montserrat-body {
+	font-family: "Montserrat", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
-
+h3, h2, h1 {
+	font-weight: 400;
+}
 header	{
 	grid-area: header;
 	background-color: #050505;
