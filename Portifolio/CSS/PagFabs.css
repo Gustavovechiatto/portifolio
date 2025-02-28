@@ -1,0 +1,13 @@
+body {
+	font-family: Helvetica;
+    background-color: #050505;
+}
+
+header	{
+	grid-area: header;
+	background-color: #050505;
+}
+
+footer	{
+	text-align: center;
+}
