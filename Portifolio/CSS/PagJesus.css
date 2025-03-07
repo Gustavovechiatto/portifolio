@@ -1,29 +1,88 @@
-.Titulo {
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#txtApre {
+    background: #094293;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
 }
 
-.escrita {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+#Apre{
+    color: whitesmoke;
 }
 
-.Copy {
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
+#habilidades{
+    background-color: #094293;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    transition: background-color 0.3s ease; 
+    border-radius: 10px;
 }
 
-.hb {
-    color: darkblue;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
-
+#txtHabilidades{
+    color: #CCCCCC;
+    text-align: center;
 }
 
-#Linkedin{
-    color: black;
+.skills{
+    color: whitesmoke;
+}
+
+#inicio{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.nome{
+    color: whitesmoke;
+    position: relative;
+    top: 37px;
+}
+body{
+    background: rgb(19,46,147);
+    background: linear-gradient(90deg, rgba(19,46,147,1) 0%, rgba(14,101,208,1) 100%);
     
+}
+.imagemgit{
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
+.imagemgit:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imagemlink{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagemlink:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imagemvolta{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagemvolta:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
