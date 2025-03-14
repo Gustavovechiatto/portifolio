@@ -1,38 +1,6 @@
-#txtApre {
-    background: #094293;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0%;
-    z-index: 1000;
-    transition: background-color 0.3s ease;
-    border-radius: 10px;
-}
-
-#Apre{
-    color: whitesmoke;
-}
-
-#habilidades{
-    background-color: #094293;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0%;
-    z-index: 1000;
-    transition: background-color 0.3s ease; 
-    border-radius: 10px;
-}
-
-#txtHabilidades{
-    color: #CCCCCC;
-    text-align: center;
-}
-
-.skills{
-    color: whitesmoke;
+body{
+    background: #094293
+    
 }
 
 #inicio{
@@ -52,11 +20,95 @@
     position: relative;
     top: 37px;
 }
-body{
+
+.Titulo{
+    color: whitesmoke;
+    text-align: center;
+}
+
+#txtApre {
     background: rgb(19,46,147);
     background: linear-gradient(90deg, rgba(19,46,147,1) 0%, rgba(14,101,208,1) 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+#Apre{
+    color: whitesmoke;
+}
+
+#habilidades{
+    background: rgb(19,46,147);
+    background: linear-gradient(90deg, rgba(19,46,147,1) 0%, rgba(14,101,208,1) 100%);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s ease; 
+    border-radius: 10px;
+}
+
+#txtHabilidades{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.skills{
+    color: whitesmoke;
+    font-size: large;
+    text-align: left;
+}
+
+#PYTHON{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#PYTHON:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#HTML{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#HTML:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#SQL{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#SQL:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.redesocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#git{
+    display: flex;
+    padding-right: 5%;
     
 }
+
+#link{
+    display: flex;
+    justify-content:space-between;
+    
+}
+   
 .imagemgit{
     transition: all 0.5s;
     cursor: pointer;
@@ -85,4 +137,54 @@ body{
 .imagemvolta:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.Formação{
+    background: rgb(19,46,147);
+    background: linear-gradient(90deg, rgba(19,46,147,1) 0%, rgba(14,101,208,1) 100%);
+    padding: 45px;
+    display: block;
+    justify-content: center;
+    transition: background-color 0.3s ease; 
+    border-radius: 10px;
+}
+
+#txtForm{
+    color: whitesmoke;
+    text-align: center;
+}
+
+#Fa-1{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+}
+
+#Fa-2{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+}
+
+#Fa-3{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+}
+
+#Fa-4{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+}
+
+#Copy{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
 }
