@@ -1,21 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
 .Corpo {
 	background-color: #07080a;
 	color: #FFFAFA;
 	font-family: "Montserrat", sans-serif;
 }
 
+
+header	{
+	display: flex;
+	justify-content: space-between;
+	grid-area: header;
+	background-color: #07080a;
+	align-items: center;
+}
+
+main {
+	margin-top: 5rem;
+}
+
 h3, h2, h1 {
 	font-weight: 400;
 }
 
-header	{
-	grid-area: header;
-	background-color: #07080a;
+a {
+	text-decoration: none;
+	color:#FFFAFA;
+}
+
+
+.Feather {
+	color: #006600;
+}
+
+.Feather:hover {
+	transition: .9s;
+	color: purple;
 }
 
 footer	{
 	text-align: center;
+}
+
+.Final {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
 }
