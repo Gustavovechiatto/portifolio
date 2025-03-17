@@ -1,36 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-.Corpo {
-	background-color: #07080a;
-	color: #FFFAFA;
-	font-family: "Montserrat", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-header	{
-	display: flex;
-	justify-content: space-between;
-	grid-area: header;
-	background-color: #07080a;
-	align-items: center;
+body {
+    background-color: #fdfdfd;
+    color: #333;
 }
 
-main {
-	margin-top: 5rem;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #222;
+    color: #fff;
 }
 
-h3, h2, h1 {
-	font-weight: 400;
+header .logo img {
+    max-width: 50px;
 }
 
-a {
-	text-decoration: none;
-	color:#FFFAFA;
+nav {
+    display: flex;
+    gap: 20px;
 }
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+nav a:hover {
+    color: #fc9b90;
+}
+
+.contato {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
 
 .Feather {
 	color: #006600;
+	text-decoration: none;
 }
 
 .Feather:hover {
@@ -38,13 +63,68 @@ a {
 	color: purple;
 }
 
-footer	{
-	text-align: center;
+main {
+    padding: 50px;
 }
 
-.Final {
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.final {
+	color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+	transition: .5s;
+	color: #FA8072;
+}
+
+.rodape {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 25px;
+	gap: 20px;
 }
